@@ -9,12 +9,14 @@
     <th></th>
   </tr>
 
+<%= will_paginate @comments %>
+
 <% @comments.each do |comment| %>
   <tr>
     <td><%= comment.body %></td>
     <td><%= comment.post %></td>
     <td><%= link_to 'Show', comment %></td>
-    <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
+    <td><%= link_to 'Edit', "/comments/#{comment.to_param}/edit" %></td>
     <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
