@@ -25,7 +25,7 @@ common: &default_settings
   # completely turn the agent off regardless of the other settings.
   # Valid values are true, false and auto.
   #
-  # agent_enabled: auto
+  agent_enabled: auto
 
   # Application Name Set this to be the name of your application as
   # you'd like it show up in New Relic. The service will then auto-map
@@ -63,10 +63,10 @@ common: &default_settings
   # root directory (may be relative or absolute, e.g. 'log/' or
   # '/var/log/') The agent will attempt to create this directory if it
   # does not exist.
-  # log_file_path: 'log'
+  log_file_path: 'log'
 
   # Optionally set the name of the log file, defaults to 'newrelic_agent.log'
-  # log_file_name: 'newrelic_agent.log'
+  log_file_name: 'newrelic_agent.log'
 
   # The newrelic agent communicates with the service via https by default.  This
   # prevents eavesdropping on the performance metrics transmitted by the agent.
