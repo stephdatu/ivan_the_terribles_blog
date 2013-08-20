@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   before_filter :find_post, only: [:show, :edit, :update, :destroy]
   # GET /posts
   def index
-    @posts = Post.page(params[:page]).per_page(10)
+    @posts = Post.page(params[:page]).per_page(20)
   end
 
   # GET /posts/1

@@ -2,7 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .reply {
-  background-color: #AAAAAA;
+  border-bottom-style: dotted;
+  border-width: 1px;
+  border-color: black;
   font-style: italic;
   padding-left: 20px;
 }
