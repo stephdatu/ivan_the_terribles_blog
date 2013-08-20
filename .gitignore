@@ -22,3 +22,5 @@
 .project
 __eclim_temp_Vagrantfile
 .rspec
+
+*/newrelic.yml

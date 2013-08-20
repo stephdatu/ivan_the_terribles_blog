@@ -5,7 +5,6 @@ gem 'rack-mini-profiler'
 gem 'will_paginate', '> 3.0'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
-gem 'unicorn'
 gem 'newrelic_rpm'
 
 # Bundle edge Rails instead:
